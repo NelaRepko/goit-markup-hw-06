@@ -13,7 +13,7 @@ ul {
 }
 button {font-family: inherit;
     cursor: pointer;
-    border: none;
+    /* border: none; */
     background-color: transparent;
 }
 address {
@@ -23,12 +23,12 @@ address {
 
 /* #region Common */
 .visually-hidden {
-  position: absolute;
+  /* position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
+  padding: 0; */
   color: #2e2f42;
   white-space: nowrap;
   clip-path: inset(100%);
@@ -57,7 +57,7 @@ address {
 .dark {
     color: #2E2F42;
 }
-.header-link {
+.header-link {    
 }
 .menu {
 }
@@ -66,8 +66,8 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.menu-item:hover, 
-.menu-item:focus {
+.menu-link:hover, 
+.menu-link:focus {
     text-decoration: underline;
     color: #404bbf;
 }
@@ -106,8 +106,8 @@ address {
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
-.order:hover, 
-.order:focus {
+.order-service:hover, 
+.order-service:focus {
     color: #404BBF;
 }
 /* #endregion */
@@ -119,6 +119,7 @@ address {
     line-height: 1.5
 }
 .feature-header {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -126,7 +127,7 @@ address {
 }
 .feature-text {
     font-size: 16px;
-    line-height: 1.52;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 /* #endregion */
@@ -160,6 +161,7 @@ address {
 .team-title {
     font-size: 16px;
     line-height: 1.5; 
+    letter-spacing: 0.02em;
 }
 /* #endregion */
 
