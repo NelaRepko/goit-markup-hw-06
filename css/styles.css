@@ -1,0 +1,181 @@
+/* #region Base / Global */
+body {
+font-family: "Roboto", "Raleway", sans-serif;
+color: #434455;
+background-color: #ffffff;
+}
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+button {font-family: inherit;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+address {
+    font-style: normal;
+}
+/* #endregion */
+
+/* #region Common */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.accent {
+    color: #4d5ae5;
+}
+/* #endregion */
+
+/* #region Header */
+.header {
+     color: #2E2F42;
+    background-color: #fff;
+}
+.nav {
+}
+.header-link {
+
+}
+.menu {
+}
+.menu-item {
+}
+.menu-link:hover, 
+.menu-link:focus {
+    text-decoration: underline;
+}
+.address {
+}
+/* #endregion */
+
+/* #region Hero */
+.hero {
+    background-color: #2E2F42;
+    color: #fff;
+    text-align: center;
+}
+.section {
+}
+.h1 {
+    font-size: 56px;
+     line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.order {
+    color: #ffffff;
+    background-color: #4d5ae5;
+    font-size: 16px;
+    font-weight: 500; 
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+/* #endregion */
+
+/* #region Feature */
+.features {
+}
+.feature-menu {
+}
+.feature-menu-item {
+}
+.feature-header {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.feature-text {
+    font-size: 16px;
+    line-height: 1.52;
+    letter-spacing: 0.02em;
+}
+/* #endregion */
+
+/* #region Team */
+.team {
+    background-color: #F4F4FD;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.team-header {
+    font-size: 36px;
+    line-height: 1.11;    
+}
+.team-menu {
+}
+.team-item {
+}
+.team-photo {
+}
+.team-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;   
+} 
+.team-title {
+    font-size: 16px;
+    line-height: 1.5; 
+}
+/* #endregion */
+
+/* #region portfolio */
+.portfolio {
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.portfolio-header {
+    font-size: 36px;
+    line-height: 1.11;    
+    color: red;
+}
+.portfolio-menu {
+}
+.portfolio-item {
+}
+.portfolio-photo {
+}
+.portfolio-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;    
+}
+.portfolio-title {
+    font-size: 16px;
+    line-height: 1.5; 
+}
+/* #endregion */
+
+/* #region Footer */
+.footers {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align:left;   
+}
+/* #endregion */
