@@ -30,10 +30,10 @@ address {
   border: 0;
   padding: 0; */
   color: #2e2f42;
-  white-space: nowrap;
+  /* white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  overflow: hidden;
+  overflow: hidden; */
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -41,7 +41,7 @@ address {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    /* text-align: center; */
+    text-align: center;
     text-transform: uppercase;
     color: #4d5ae5;
 }
@@ -88,7 +88,7 @@ address {
 .hero {
     background-color: #2E2F42;
     color: #fff;
-    /* text-align: center; */
+    text-align: center;
 }
 .section {
 }
@@ -135,7 +135,7 @@ address {
 /* #region Team */
 .team {
     background-color: #F4F4FD;
-    /* text-align: center; */
+    text-align: center;
 }
 .team-header {
     font-size: 36px;
@@ -167,7 +167,7 @@ address {
 
 /* #region portfolio */
 .portfolio {
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.02em;
 }
 .portfolio-header {
