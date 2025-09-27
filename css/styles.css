@@ -41,7 +41,7 @@ address {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-align: center;
+    /* text-align: center; */
     text-transform: uppercase;
     color: #4d5ae5;
 }
@@ -88,13 +88,13 @@ address {
 .hero {
     background-color: #2E2F42;
     color: #fff;
-    text-align: center;
+    /* text-align: center; */
 }
 .section {
 }
 .hero-header {
     font-size: 56px;
-     line-height: 1.07;
+    line-height: 1.07;
     letter-spacing: 0.02em;
 }
 .order-service {
@@ -108,7 +108,7 @@ address {
 }
 .order-service:hover, 
 .order-service:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 /* #endregion */
 
@@ -135,7 +135,7 @@ address {
 /* #region Team */
 .team {
     background-color: #F4F4FD;
-    text-align: center;
+    /* text-align: center; */
 }
 .team-header {
     font-size: 36px;
@@ -167,7 +167,7 @@ address {
 
 /* #region portfolio */
 .portfolio {
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.02em;
 }
 .portfolio-header {
@@ -208,6 +208,6 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align:left;   
+    /* text-align:left;   */
 }
 /* #endregion */
