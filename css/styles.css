@@ -68,8 +68,6 @@ address {
 .menu-list {
     display: flex;
     align-items: center;
-    outline: 2px solid red;
-    outline-offset: -2px;
     padding: 0;
     margin-right: auto;
     gap: 40px;
@@ -79,8 +77,6 @@ address {
     align-items: center;
     gap: 40px;
     padding: 0;
-    outline: 2px solid red;
-    outline-offset: -2px;
     
 }
 .menu-item {
