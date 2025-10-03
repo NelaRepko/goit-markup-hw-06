@@ -59,7 +59,7 @@ address {
     align-items: center;
     margin-right: 76px;
 }
-.logo1 {
+.footer-logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -96,11 +96,13 @@ address {
 .header-nav {
   margin-right: auto;
   align-items: center;
+  display: flex; 
 }
 .dark {
     color: #2E2F42;
 }
-.header-link {    
+.menu-link {    
+    padding: 24px 0
 }
 .menu-list {
     display: flex;
@@ -154,7 +156,7 @@ header-address {
         background-color: #2E2F42;
     color: #fff;
     text-align: center;
-     padding: 188px 0 48px;
+     padding: 188px 0;
     
 }
 .section {
@@ -193,6 +195,8 @@ header-address {
     gap: 24px;
     padding: 0;
     margin: 0;
+}
+.feature-menu-item {
     width calc((100% - 3 * 24px) / 4);
 }
 .feature-header {
@@ -294,14 +298,14 @@ header-address {
    
 }
 .portfolio-item {
-    width: calc((100% - 24px * 2) / 3);
+    width: calc((100% - 48px) / 3);
     margin-bottom: 48px;
 }
 .portfolio-photo {
 }
 .portfolio.app {
     padding: 32px 16px;
-    border: 1px solid #e7e9fc; 
+    border: 1px solid #e7e9fc;
     border-top: none; 
     margin-bottom: 8px;
 }
@@ -310,7 +314,8 @@ header-address {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42    
+    color: #2e2f42;
+    margin-bottom: 8px;   
 }
 .portfolio-title {
     font-size: 16px;
