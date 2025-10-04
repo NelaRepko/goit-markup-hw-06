@@ -34,7 +34,6 @@ address {
 
 /* #region Common */
 .visually-hidden {
-   color: #2e2f42;
   position: absolute;
   width: 1px;
   height: 1px;
