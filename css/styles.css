@@ -120,9 +120,7 @@ address {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 0;
-}
-.menu-item {
+    
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
