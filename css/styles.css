@@ -81,7 +81,8 @@ address {
     border-bottom: 1px solid #e7e9fc
 }
 .container {
-    padding: 0 156px;
+    max-width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 .header-container {
@@ -296,6 +297,7 @@ address {
     row-gap: 48px;
     flex-wrap: wrap;
     margin-bottom: 120px;
+    padding-left: 0;
 }
 .portfolio-item {
     padding: 0;
