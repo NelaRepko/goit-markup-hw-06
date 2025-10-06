@@ -4,6 +4,9 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
+р1, h1, h2, h3, h4, h5, h6 {
+    margin: 0;   
+}
 a {
     color: currentColor;
     text-decoration: none;
@@ -13,6 +16,8 @@ img {
 }
 ul {
     list-style: none;
+    padding:0;
+    margin:0;
 }
 button {font-family: inherit;
     cursor: pointer;
@@ -101,7 +106,10 @@ address {
     color: #2E2F42;
 }
 .menu-link {    
-    padding: 24px 0
+    padding: 24px 0    
+}
+.menu-item {
+    font-weight: 1400;
 }
 .menu-list {
     display: flex;
@@ -109,6 +117,7 @@ address {
     padding: 0;
     margin-right: auto;
     gap: 40px;
+    font-weight: 500;
 }
 .menu-post {
     display: flex;
@@ -120,8 +129,7 @@ address {
     display: flex;
     align-items: center;
     gap: 40px;
-    
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 0;;
@@ -132,7 +140,7 @@ address {
 }
 .menu-link:hover, 
 .menu-link:focus {
-    text-decoration: underline;
+    text-decoration: none;
     color: #404bbf;
 }
 .header-address {
@@ -148,6 +156,7 @@ address {
 .post-item:hover, 
 .post-item:focus {
     color: #404bbf;
+    text-decoration: none;
 }
 /* #endregion */
 
@@ -170,6 +179,7 @@ address {
 }
 .hero-header {
     margin: 0 auto;
+    margin-bottom: 48px;
 }
 .order-service {
     font-family: "Roboto", sans-serif;
@@ -230,7 +240,6 @@ address {
     font-size: 36px;
     line-height: 1.11; 
     letter-spacing: 0.02em;
-    padding-top: 120px;
     margin-bottom: 72px;
     text-transform: capitalize; 
     color: #2e2f42;  
@@ -246,7 +255,6 @@ address {
     background-color: #FFFFFF;
     padding: 0;
     margin: 0;
-    margin-bottom: 120px;
     border-bottom: 1px solid #eee;
     border-radius: 0px 0px 4px 4px; 
     width: calc((100% - 72px) / 4);
@@ -319,11 +327,13 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;   
+    text-align: left;
+    margin-bottom: 32px;   
 }
 .portfolio-title {
     font-size: 16px;
     line-height: 1.5; 
+    text-align: left;
 }
 /* #endregion */
 
@@ -335,7 +345,11 @@ address {
     padding-top: 100px;
     padding-bottom: 100px;    
 }
-   
+.footer-container {
+    margin-left: 156px;
+    padding: 0;
+}
+
 .light {
     color: #f4f4fd;
 }
