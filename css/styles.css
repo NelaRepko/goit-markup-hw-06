@@ -4,7 +4,7 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
-р1, h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;   
 }
 a {
@@ -80,9 +80,6 @@ address {
 
 /* #region Header */
 .header {
-     color: #2E2F42;
-    background-color: #fff;
-    padding: 8px 0;
     border-bottom: 1px solid #e7e9fc
 }
 .container {
@@ -310,7 +307,6 @@ address {
 .portfolio-item {
     padding: 0;
     margin: 0;
-    margin-bottom: 48px;
     width: calc((100% - 48px) / 3);
 }
 .portfolio-photo {
