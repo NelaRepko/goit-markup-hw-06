@@ -427,6 +427,11 @@ position: relative;
 .portfolio-item:focus {
     transform: translateY(0%);
 }
+.portfolio-item:hover .portfolio-text,
+.portfolio-item:focus .portfolio-text {
+    transform: translateY(0%);
+}
+
 .portfolio-item-photo {
     position: relative;
     overflow: hidden;
