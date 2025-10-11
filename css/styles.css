@@ -73,7 +73,7 @@ address {
     color: #4d5ae5;
     display: inline-block; 
     align-items: center;
-    margin-right: 76px;
+    /* margin-right: 76px; */
     margin-bottom: 16px;
 }
 /* #endregion */
@@ -490,6 +490,7 @@ position: relative;
 .whole-footer {
     display: flex;
     align-items: baseline;
+    margin-right: 120px
 }
 .social-container {
     padding: 0;
