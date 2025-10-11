@@ -484,21 +484,19 @@ position: relative;
 }
 .footer-container {
     margin-left: 156px;
-    padding: 0;
     margin-right: 120px;
-
+    padding: 0;
 }
 .whole-footer {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
 }
 .social-container {
     padding: 0;
     max-width: 208px;
     height: 80px;
     margin: 0;
-    color: #ffffff;
+    color: #ffffff;    
 }
 
 .light {
