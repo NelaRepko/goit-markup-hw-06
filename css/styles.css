@@ -480,11 +480,6 @@ position: relative;
     display: flex;
     align-items: baseline;
 }
-.footer-container {
-    padding: 0;
-    margin-left: 156px;
-    margin-right: 120px;
-}
 .whole-footer {
     display: flex;
     align-items: baseline;
@@ -492,16 +487,18 @@ position: relative;
     /* margin-left: 0;
     margin-right: auto; */
 }
+.footer-container {
+    padding: 0;
+    margin-left: 156px;
+    margin-right: 120px;
+}
 .social-container {
     padding: 0;
     max-width: 208px;
     height: 80px;
-    margin-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     color: #ffffff;    
 }
-
 .light {
     color: #f4f4fd;
 }
