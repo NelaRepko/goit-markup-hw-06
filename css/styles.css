@@ -428,8 +428,8 @@ position: relative;
 .portfolio-item:focus {
      transform: translateY(0%); 
 }  */
-.portfolio-item:hover.portfolio-text,
-.portfolio-item:focus.portfolio-text {
+.portfolio-item:hover.portfolio-photo,
+.portfolio-item:focus.portfolio-photo {
     transform: translateY(0%);
 } 
 .portfolio-item-photo {
