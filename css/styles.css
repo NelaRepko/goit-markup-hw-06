@@ -210,6 +210,7 @@ position: relative;
     background-position: center;
     background-size: cover;
     max-width: 1440px;
+    margin:0 auto;
 }
 .hero-container {
     max-width: 1158px;
@@ -273,8 +274,6 @@ position: relative;
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   background-color: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -452,7 +451,6 @@ position: relative;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none; 
-    margin-bottom: 8px;
 }
 .portfolio-name {
     font-size: 20px;
@@ -483,13 +481,12 @@ position: relative;
 .whole-footer {
     display: flex;
     align-items: baseline;
-    margin-left: 156px;
+    /* max-width: 1158px; */
     width: 100%;
-    /* margin-left: 0;
-    margin-right: auto; */
 }
 .footer-container {
     padding: 0;
+    /* padding-left: 156px; */
     margin-right: 120px;
 }
 .social-container {
