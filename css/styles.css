@@ -804,7 +804,7 @@ margin-left: 16px;
     fill: #ffffff;
 }
 
-.agreement-check {
+.agreement-check:not(:checked) {
     display: inline-flex;
     justify-content: center;
     align-items: center;
