@@ -4,6 +4,11 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
+/* Block page scroll */
+body:has(.backdrop.is-open) {
+  overflow: hidden;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;   
 }
@@ -233,10 +238,10 @@ position: relative;
     margin: 0 auto;
     margin-bottom: 48px;
 }
-.order-service {
-        min-width: 169px;
+.service-btn {
+    padding: 0;
+    min-width: 169px;
     height: 56px;
-
     font-family: "Roboto", sans-serif;
     color: #ffffff;
     background-color: #4d5ae5;
@@ -541,21 +546,22 @@ position: relative;
     left: 0;
     background-color:rgba(46, 47, 66, 0.4);
     z-index: 10;
-  /* opacity: 0;
+  
+    opacity: 0;
   visibility: hidden;
-  pointer-events: none; */
+  pointer-events: none;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: opacity, visibility;
   transition-delay: 250ms;
 
 }
-/* .backdrop.is-open {
+.backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
   transition-delay: 0ms;
-} */
+}
 .modal {
     width: 408px;
     min-height: 584px;
@@ -566,16 +572,16 @@ position: relative;
     left: 50%;
     padding: 72px 24px;
     transform: translateX(-50%) translateY(-70%);
-    /* opacity: 0; */
+    opacity: 0; /* visualisation*/
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: opacity, transform;
 
 }
-/* .backdrop.is-open .modal {
+.backdrop.is-open .modal {
   transform: translateX(-50%) translateY(-50%);
   opacity: 1;
   transition-delay: 250ms;
-} */
+} 
 
 .modal-header {
     font-weight: 500;
@@ -618,6 +624,10 @@ position: relative;
     display: block;
     margin-bottom: 4px;
 }
+.modal-form-wrapper {
+  position: relative;
+}
+
 .modal-input {
     display: block;
     width: 100%;
@@ -665,6 +675,48 @@ position: relative;
 }
 .user-comment::placeholder {
   color: rgba(46, 47, 66, 0.4);
+}
+.modal-form-agreement {
+    margin-bottom: 24px;
+}
+.modal-checkbox-label {
+    font-size: 12px;
+    line-height: 1.17px;
+letter-spacing: 0.04em;
+
+}
+.modal-checkbox-label {
+    letter-spacing: 0.04em;
+    color: #757575;
+}
+.agreement-check {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    fill: transparent;
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color, background-color, fill;
+
+}
+input[type='checkbox']:checked + .modal-checkbox-label > .agreement-check {
+  background-color: #404BBF;
+  border-color: #404BBF;
+  fill: #F4F4FD
+}
+.agreement-icon {
+}   
+.accent-text {
+    color: #4d5ae5;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-offset: 0%;
+    text-decoration-thickness: 0%;
 }
 
 /* #endregion */
