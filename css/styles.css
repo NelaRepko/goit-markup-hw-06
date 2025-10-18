@@ -799,6 +799,11 @@ margin-left: 16px;
   border: none;
   fill: #F4F4FD;
 } 
+.modal-btn:hover > .modal-close-icon,
+.modal-btn:focus > .modal-close-icon {
+    fill: #ffffff;
+}
+
 .agreement-check {
     display: inline-flex;
     justify-content: center;
