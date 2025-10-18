@@ -150,7 +150,7 @@ position: relative;
 }
 
 .menu-item {
-    font-weight: 1400;
+    font-weight: 400;
 }
 .menu-list {
     display: flex;
@@ -201,7 +201,7 @@ position: relative;
 .main {
     }
 .hero {
-    max-widthtean: 1440px;
+    max-width: 1440px;
     height: 600px;
     background-color: #2E2F42;
     color: #fff;
@@ -287,7 +287,7 @@ position: relative;
   height: 112px; 
 }
 .feature-icon {
-  padding: 24px auto;
+  padding: 24px auto; 
 }
 
 .feature-header {
@@ -559,7 +559,7 @@ position: relative;
     font-size: 16px; 
     line-height: 1.5; 
     letter-spacing: 0.02em; 
-    color: ##FFFFFF;
+    color: #FFFFFF;
     margin-bottom: 16px;
 }
 .footer-form-wrapper {
@@ -572,7 +572,6 @@ justify-content: center;
 .footer-form-input {
     font-family: Roboto;
 font-weight: 400;
-font-style: Regular;
 font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
@@ -602,7 +601,7 @@ font-family: "Roboto", sans-serif;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
- cursor: pointer
+cursor: pointer;
 border-radius: 4px;
 opacity: 1;
 padding-top: 8px;
@@ -818,7 +817,6 @@ input[type='checkbox']:checked + .modal-checkbox-label > .agreement-check {
     color: #4d5ae5;
     text-decoration: underline;
     text-decoration-style: solid;
-    text-decoration-offset: 0%;
     text-decoration-thickness: 0%;
 }
 
