@@ -726,7 +726,7 @@ margin-left: 16px;
 
 .modal-input {
     display: block;
-    width: 100;
+    width: 100%;
     height: 40px;
     padding-top: 11px;
     padding-bottom: 11px;
