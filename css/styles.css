@@ -253,8 +253,6 @@ position: relative;
     margin: 0 auto;
     transition: background-color 250ms 
     cubic-bezier(0.4, 0, 0.2, 1); 
-       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-
 }
 .service-btn:hover, 
 .service-btn:focus {
@@ -617,7 +615,7 @@ padding-left: 24px;
 background-color: #4D5AE5;
 color: #FFFFFF;
 border: none; 
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .subscribe-btn:hover, 
