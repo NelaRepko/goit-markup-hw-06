@@ -253,7 +253,16 @@ position: relative;
     margin: 0 auto;
     transition: background-color 250ms 
     cubic-bezier(0.4, 0, 0.2, 1); 
+       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
 }
+.service-btn:hover, 
+.service-btn:focus {
+    background-color: #404bbf;
+    border: none;   
+    fill: #ffffff;
+} 
+
 .service-btn:hover, 
 .service-btn:focus {
     fill: #ffffff
@@ -547,14 +556,11 @@ position: relative;
     display: flex;
     gap: 24px;
     padding: 0;
-    max-width: 453px;
-    height: 80px;
     margin: 0;
     color: #ffffff; 
 }
 .footer-label {
     display: block;
-    margin-bottom: 4px;
     font-weight: 500;
     font-size: 16px; 
     line-height: 1.5; 
@@ -611,8 +617,15 @@ padding-left: 24px;
 background-color: #4D5AE5;
 color: #FFFFFF;
 border: none; 
-gap: 16px;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
 }
+.subscribe-btn:hover, 
+.subscribe-btn:focus {
+    background-color: #404bbf;
+    border: none;   
+    fill: #ffffff;
+} 
 .subscribe-icon {
     fill: currentColor;
 margin-left: 16px; 
