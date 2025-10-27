@@ -67,15 +67,23 @@ address {
     color: #4d5ae5;
     display: flex;
     align-items: center;
-    margin-right: 76px;
     padding: 16px 0;
 }
-@media screeen and (min-width: 320px) {
+@media only screen and (min-width: 320px) {
     .logo {
     padding: 24px 0;
     }
 }
-
+@media only screen and (min-width: 768px) {
+    .logo {
+    margin-right: 120px;
+    }
+}
+@media only screen and (min-width: 1158px) {
+    .logo {
+    margin-right: 76px;
+    }
+}
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -105,12 +113,12 @@ address {
     margin: 0 auto;
     
 }
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .container {
         max-width: 768px;
     }
 }
-@media screen and (min-width: 1158px) {
+@media only screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
     padding: 0 15px;
@@ -122,7 +130,6 @@ address {
     align-items: center; 
     }
 }
-
 .header-nav {
   margin-right: auto;
   align-items: center;
@@ -139,7 +146,7 @@ address {
     gap: 40px;
     font-weight: 500;
 }
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .menu-list {
         display: none;
     }
@@ -155,6 +162,11 @@ address {
         margin-bottom: 0;
 }
 }
+
+.current {
+        padding: 25px 0;  
+}
+
 .menu-link {    
     display: block;
         font-size: 12px;
@@ -164,9 +176,8 @@ address {
   transition-property: color, opacity;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-@media only screen and (min-width: 1158) {
+@media only screen and (min-width: 1158px) {
     .menu-link {   
-        padding: 24px 0;  
         font-size: 16px;
         line-height: 1.5;   
         letter-spacing: 0.02em;
@@ -197,17 +208,14 @@ position: relative;
 }
 .menu-post {
     display: block;
-    /* display: flex;
-    align-items: center;
-    gap: 40px; */
     padding: 0; 
 }
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .menu-post {
         display: none;
     }
 }
-@media screen and (min-width: 1158px) {
+@media only screen and (min-width: 1158px) {
     .menu-post {
         display: flex;
         align-items: center;
@@ -220,8 +228,9 @@ position: relative;
     /* display: flex;
     align-items: center; */
     font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     padding: 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     color: #434455;
@@ -229,10 +238,13 @@ position: relative;
   transition-duration: 300ms;
   transition-timing-function: ease-in;
 }
-@media screen and (min-width: 1158px) {
+@media only screen and (min-width: 1158px) {
     .post-item {
         display: flex;
         align-items: center;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
         gap: 40px;
         padding: 0;
     }
@@ -253,12 +265,12 @@ position: relative;
 .main {
     }
 .hero {
-    max-width: 1440px;
-    height: 600px;
+    max-width: 320px;
+    height: 432px;
     background-color: #2E2F42;
     color: #fff;
     text-align: center;
-    padding: 188px 0;  
+    /* padding: 188px 0;  */
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)
         ),
         url('../images/people/office-mob.jpg');
@@ -267,6 +279,7 @@ position: relative;
     background-size: cover;
     max-width: 1440px;
     margin:0 auto;
+    padding: 72px 52px;
 }
 @media (min-resolution: 192dpi) {
     .hero {
@@ -277,6 +290,9 @@ position: relative;
   }
 @media only screen and (min-width: 768px) {
     .hero {
+        max-width: 786px;
+        height: 436px;
+        padding: 112px 136px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)
         ),
         url('../images/people/office-tab.jpg');
@@ -291,6 +307,9 @@ position: relative;
 }
 @media only screen and (min-width: 1158px) {
     .hero {
+        max-width: 1440px;
+        height: 600px;
+        padding: 188px 472px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)
         ),
       url('../images/people/office-desk.jpg');
@@ -304,26 +323,27 @@ position: relative;
   }
 }
 .hero-container {
-    max-width: 1440px; */
-    margin: 0 auto;
-    padding: 72px 52px;
+    max-width: 216px; 
+    margin: 0;
+    /* margin: 0 auto; */
+    padding: 0;
 }
-@media only screen and (min-wdth: 768px) {
+@media only screen and (min-width: 768px) {
     .hero-container {
-    padding: 112px 136px;
+    max-width: 496px; 
     }
 }  
-@media only screen and (min-wdth: 1158px) {
+@media only screen and (min-width: 1158px) {
     .hero-container {
-    padding: 0 15px;
-    padding: 188px 472px;
+    max-width: 1158px; 
     }
 }  
+
 .hero-header {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    max-width: 496px;
+    max-width: 216px;
     margin: 0 auto;
     margin-bottom: 72px;
 }
@@ -331,7 +351,13 @@ position: relative;
     .hero-header {
         font-size: 56px;
         line-height: 1.07;
+        max-width: 496px;
         margin-bottom: 36px;
+    }
+}
+@media only screen and (min-width: 1158px) {
+    .hero-header {
+        max-width: 496px;
     }
 }
 @media only screen and (min-width: 1158px) {
@@ -350,20 +376,10 @@ position: relative;
     font-weight: 500; 
     line-height: 1.5;
     letter-spacing: 0.04em;
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
     margin: 0 auto;
     transition: background-color 250ms 
     cubic-bezier(0.4, 0, 0.2, 1); 
-}
-@media only screen and (min-width: 768px) {
-    .service-btn {
-        margin-bottom: 112px;
-        }
-}
-@media only creen and (min-width: 1158px) {
-    .service-btn {
-        margin-bottom: 188px;
-    }
 }
 .service-btn:hover, 
 .service-btn:focus {
@@ -371,16 +387,16 @@ position: relative;
     border: none;   
     fill: #ffffff;
 } 
-
-.service-btn:hover, 
-.service-btn:focus {
-    fill: #ffffff
-}
 /* #endregion */
 
 /* #region Feature */
 .features {
-    padding: 120px 0;
+    padding: 96px 0;
+}
+@media only screen and (min-width: 1158px) {
+    .features {
+        padding: 120px 0;
+    }
 }
 .feature-menu {
     line-height: 1.5;
@@ -441,12 +457,14 @@ position: relative;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     max-width: 288px;
     margin-bottom: 8px;
 }
 @media only screen and (min-width: 768px) {
     .feature-header {
         max-width: 356px;
+        text-align: left;
     }
  }
  @media only screen and (min-width: 1158px) {
@@ -488,13 +506,13 @@ position: relative;
  .team-menu {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 72px;
     padding: 0;
     margin: 0;
  }
  @media only screen and (min-width: 768px) {
   .team-menu {
-    justify-content: center;
     row-gap: 64px;
     column-gap: 24px;
   }
@@ -659,6 +677,7 @@ position: relative;
     font-size: 16px; 
     line-height: 1.5; 
     letter-spacing: 0.02em; 
+    text-align: left;
     color: #f4f4fd;
     padding: 40px 32px; 
     background-color: #4d5ae5; 
@@ -729,12 +748,21 @@ position: relative;
         justify-content: center;
     }
 }
-@media only screen and (min-width: 768px) and (max-width: 1157px) {
+@media only screen and (min-width: 768px) {
     .whole-footer {
         padding: 0 100px;
         display: flex;
         flex-wrap: wrap;
         gap: 72px 24px;
+    }   
+}
+@media only screen and (min-width: 1158px) {
+    .whole-footer {
+        gap: 0;
+        margin: 0;
+        padding: 0;
+        padding-left: 15px;
+        flex-wrap: nowrap;
     }   
 }
 .footer-container {
@@ -964,11 +992,9 @@ margin-left: 16px;
     min-height: 584px;
     }
  }
-/* .backdrop.is-open .modal { */
 .backdrop.is-open .modal {
   transform: translateX(-50%) translateY(-50%);
   opacity: 1;
-  /* transition-delay: 250ms; */
 } 
 .modal-header {
     font-weight: 500;
@@ -1125,7 +1151,6 @@ margin-left: 16px;
     fill: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .accent-text {
     color: #4d5ae5;
     text-decoration: underline;
@@ -1192,7 +1217,8 @@ margin-left: 16px;
 }
 .mobile-menu-nav {
     font-size: 36px;
-    font-weight: 700px;
+    font-weight: 700;
+    font-style: bold;
     line-height: 1.11;
     letter-spacing: 0.02em;
     margin-bottom: auto;
